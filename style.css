@@ -47,18 +47,36 @@ form label {
 }
 
 form button {
-  position: absolute;
   width: 20%;
+  position: absolute;
   height: 5%;
-  top: 89%;
+  top: 99%;
   left: 40%;
   transform: translate(0, -190%);
   border-radius: 50px;
   font-size: 17px;
   font-family: "Nunito Sans", sans-serif;
+
   background-color: #dbd5db;
   border: 2px solid #471e4d;
 }
+
+form button:hover{
+  background: #695b6b;
+  color: white;
+}
+
+.element{
+  position:relative;
+  bottom: 0;
+  background-color: #96689c;
+  width: 40%;
+  height: 20px;
+
+  margin: 0 auto;
+}
+
+
 
 /* body{
     font-family: Arial, sans-serif;
